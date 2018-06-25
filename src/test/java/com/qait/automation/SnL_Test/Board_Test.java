@@ -8,7 +8,6 @@ import java.util.UUID;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -64,5 +63,7 @@ public class Board_Test {
 		board.rollDice(player2Uuid);
 		//board.rollDice(player1Uuid);
 	}
+	
+	
 
 }
