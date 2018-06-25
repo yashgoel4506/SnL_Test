@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="139" started-at="2018-06-25T13:27:47Z" finished-at="2018-06-25T13:27:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="139" started-at="2018-06-25T13:27:47Z" finished-at="2018-06-25T13:27:47Z">
+      <class name="com.qait.automation.SnL_Test.Board_Test">
+        <test-method status="PASS" signature="startBoard()[pri:0, instance:com.qait.automation.SnL_Test.Board_Test@402f32ff]" name="startBoard" is-config="true" duration-ms="21" started-at="2018-06-25T18:57:47Z" finished-at="2018-06-25T18:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBoard -->
+        <test-method status="PASS" signature="testInvalidTurnOfPlayer()[pri:0, instance:com.qait.automation.SnL_Test.Board_Test@402f32ff]" name="testInvalidTurnOfPlayer" duration-ms="15" started-at="2018-06-25T18:57:47Z" finished-at="2018-06-25T18:57:47Z">
+          <exception class="com.qait.automation.SnL_Test.InvalidTurnException">
+            <message>
+              <![CDATA[Player 'aa8ac4f2-b12e-4b0b-be9a-81fa5da4163a' does not have the turn]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.qait.automation.SnL_Test.InvalidTurnException: Player 'aa8ac4f2-b12e-4b0b-be9a-81fa5da4163a' does not have the turn
+	at com.qait.automation.SnL_Test.Board.rollDice(Board.java:165)
+	at com.qait.automation.SnL_Test.Board_Test.testInvalidTurnOfPlayer(Board_Test.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.qait.automation.SnL_Test.InvalidTurnException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidTurnOfPlayer -->
+        <test-method status="PASS" signature="startBoard()[pri:0, instance:com.qait.automation.SnL_Test.Board_Test@402f32ff]" name="startBoard" is-config="true" duration-ms="4" started-at="2018-06-25T18:57:47Z" finished-at="2018-06-25T18:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBoard -->
+        <test-method status="PASS" signature="testMaxPlayer()[pri:0, instance:com.qait.automation.SnL_Test.Board_Test@402f32ff]" name="testMaxPlayer" duration-ms="16" started-at="2018-06-25T18:57:47Z" finished-at="2018-06-25T18:57:47Z">
+          <exception class="com.qait.automation.SnL_Test.MaxPlayersReachedExeption">
+            <message>
+              <![CDATA[The board already has maximum allowed Player: 4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.qait.automation.SnL_Test.MaxPlayersReachedExeption: The board already has maximum allowed Player: 4
+	at com.qait.automation.SnL_Test.Board.registerPlayer(Board.java:68)
+	at com.qait.automation.SnL_Test.Board_Test.testMaxPlayer(Board_Test.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.qait.automation.SnL_Test.MaxPlayersReachedExeption -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxPlayer -->
+        <test-method status="PASS" signature="startBoard()[pri:0, instance:com.qait.automation.SnL_Test.Board_Test@402f32ff]" name="startBoard" is-config="true" duration-ms="10" started-at="2018-06-25T18:57:47Z" finished-at="2018-06-25T18:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBoard -->
+        <test-method status="PASS" signature="testPlayerUuidExist()[pri:0, instance:com.qait.automation.SnL_Test.Board_Test@402f32ff]" name="testPlayerUuidExist" duration-ms="8" started-at="2018-06-25T18:57:47Z" finished-at="2018-06-25T18:57:47Z">
+          <exception class="com.qait.automation.SnL_Test.NoUserWithSuchUUIDException">
+            <message>
+              <![CDATA[No Player with uuid 'f7b4bec7-8eb3-42ca-99aa-0e9acdc58bcf' on board]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.qait.automation.SnL_Test.NoUserWithSuchUUIDException: No Player with uuid 'f7b4bec7-8eb3-42ca-99aa-0e9acdc58bcf' on board
+	at com.qait.automation.SnL_Test.Board.deletePlayer(Board.java:111)
+	at com.qait.automation.SnL_Test.Board_Test.testPlayerUuidExist(Board_Test.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.qait.automation.SnL_Test.NoUserWithSuchUUIDException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlayerUuidExist -->
+        <test-method status="PASS" signature="startBoard()[pri:0, instance:com.qait.automation.SnL_Test.Board_Test@402f32ff]" name="startBoard" is-config="true" duration-ms="5" started-at="2018-06-25T18:57:47Z" finished-at="2018-06-25T18:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBoard -->
+        <test-method status="PASS" signature="testToRegisterWhileGameInProgress()[pri:0, instance:com.qait.automation.SnL_Test.Board_Test@402f32ff]" name="testToRegisterWhileGameInProgress" duration-ms="6" started-at="2018-06-25T18:57:47Z" finished-at="2018-06-25T18:57:47Z">
+          <exception class="com.qait.automation.SnL_Test.GameInProgressException">
+            <message>
+              <![CDATA[New player cannot join since the game has started]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.qait.automation.SnL_Test.GameInProgressException: New player cannot join since the game has started
+	at com.qait.automation.SnL_Test.Board.registerPlayer(Board.java:76)
+	at com.qait.automation.SnL_Test.Board_Test.testToRegisterWhileGameInProgress(Board_Test.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.qait.automation.SnL_Test.GameInProgressException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToRegisterWhileGameInProgress -->
+        <test-method status="PASS" signature="startBoard()[pri:0, instance:com.qait.automation.SnL_Test.Board_Test@402f32ff]" name="startBoard" is-config="true" duration-ms="4" started-at="2018-06-25T18:57:47Z" finished-at="2018-06-25T18:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBoard -->
+        <test-method status="PASS" signature="testToRegisterWithSameName()[pri:0, instance:com.qait.automation.SnL_Test.Board_Test@402f32ff]" name="testToRegisterWithSameName" duration-ms="18" started-at="2018-06-25T18:57:47Z" finished-at="2018-06-25T18:57:47Z">
+          <exception class="com.qait.automation.SnL_Test.PlayerExistsException">
+            <message>
+              <![CDATA[Player 'Player 1' already exists on board]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.qait.automation.SnL_Test.PlayerExistsException: Player 'Player 1' already exists on board
+	at com.qait.automation.SnL_Test.Board.registerPlayer(Board.java:73)
+	at com.qait.automation.SnL_Test.Board_Test.testToRegisterWithSameName(Board_Test.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.qait.automation.SnL_Test.PlayerExistsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToRegisterWithSameName -->
+      </class> <!-- com.qait.automation.SnL_Test.Board_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
